@@ -5,7 +5,7 @@ import pickle
 ROOT_DIR = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 MODEL_PATHS = {
-    "naive_bayes": os.path.join(ROOT_DIR, "app", "ml", "models", "naive_bayes_data_wine.pkl"),
+    "naive_bayes": os.path.join(ROOT_DIR, "app", "ml", "models", "naive_bayes.pkl"),
     "id3": os.path.join(ROOT_DIR, "app", "ml", "models", "id3.pkl"),
 }
 
